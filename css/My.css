@@ -1,0 +1,183 @@
+
+#Header2 {
+    padding: 0px 10px;
+    text-anchor: middle;
+    scroll-behavior: smooth;
+    margin: auto;
+    text-align: center;
+    font-style: italic, bold;
+    font-family: cursive;
+    background-image: url("../images/penguinback.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    opacity: 0.75;
+    overflow: hidden;
+    color: white;
+    
+}
+
+
+.Pages {
+    color: hotpink;
+    padding: 6px;
+
+}
+
+.body {
+    margin: 10px 10px;
+    text-align: center;
+    scroll-behavior: smooth;
+    padding: 100px 50px;
+    grid-area: auto;
+    background-color: lightblue;
+    grid-column: auto;
+    grid-row: auto;
+
+
+}
+
+
+.main {
+    background-color: lightblue;
+    color: black;
+    padding: 50px 50px;
+}
+
+div.a {
+    text-align: center;
+    padding: 0px 10px;
+    font-style: Bold;
+    font-family: fantasy;
+    background-color: aquamarine;
+    overflow: hidden;
+}
+
+div.b {
+    text-align: center;
+    padding: 0px 10px;
+    font-style: italic;
+    font-family: cursive;
+    background-color: aquamarine;
+    overflow: hidden;
+}
+
+div.c {
+    padding: 10px 10px;
+    border-color: black;
+    text-align: center;
+    color: black;
+    background-color:lightskyblue;
+
+}
+
+div.button {
+    margin-left: 1500px;
+    padding: 0px 10px;
+}
+
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+    background-color: #2196F3;
+    color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+div.dragon {
+
+    align-content: center;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
+
+footer {
+    text-align: center;
+    background-color: darkcyan;
+    color: black;
+	text-anchor: middle;
+	
+
+}
+
+#donate {
+    color: limegreen;
+    opacity: 0.40;
+    background-color: lightsteelblue;
+}
+
+#credits {
+    color: black;
+    background-color:gray;
+    padding: 10px 50px;
+    margin: 20px 10px;
+    margin-top: 10px;
+}
+
+.Dragons {
+   position: relative;
+   top: 20px;
+   left: 50px;
+}
+
+/* Current Tags Learned For CSS 
+color:
+border:
+font-weight: 
+font-size:
+padding:
+margin:
+font-family: Arial, Helvetica, sans-serif;
+display: visible, invisible;
+text-decoration: underline;
+top - moves the element down.
+bottom - moves the element up.
+left - moves the element right.
+right - moves the element left.
+position: relative; 
+*/
+
+.dun {
+    text-align: center;
+}
+div.OopsImage {
+    padding: 15%;
+    color:darkgray;
+    background-color: crimson;
+    text-align: center;
+    opacity: 90%;
+}
+
+#LoginSuccess {
+    text-align: center;
+    background-color: lightslategrey;
+    padding: 5%;
+}
+
+.Login {
+    text-align: right;
+    align-content: center;
+    outline: 3px;
+    outline-color: aqua;
+}
